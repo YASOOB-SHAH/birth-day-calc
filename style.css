@@ -1,0 +1,105 @@
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+#result {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#result div {
+	margin-bottom: 10px;
+}
+
+h1 {
+	color: #00698f;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="date"] {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 300px;
+}
+
+button {
+	background-color: #00698f;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+	max-width: 300px;
+}
+
+button:hover {
+	background-color: #00487a;
+}
+
+#result {
+	background-color: #f7f7f7;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#result div {
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: #333;
+}
+
+#result div span {
+	font-weight: bold;
+	color: #00698f;
+}
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+	input[type="date"] {
+		max-width: 100%;
+	}
+	button {
+		max-width: 100%;
+	}
+	#result {
+		padding: 15px;
+	}
+}
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 24px;
+	}
+	label {
+		font-size: 18px;
+	}
+	input[type="date"] {
+		padding: 8px;
+	}
+	button {
+		padding: 8px 15px;
+	}
+	#result {
+		padding: 10px;
+	}
+	#result div {
+		font-size: 16px;
+	}
+}
